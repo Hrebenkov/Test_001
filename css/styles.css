@@ -1,0 +1,154 @@
+body {
+  color: #15d02b;
+  /* font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif; */
+}
+
+pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
+}
+/* Применится ко всем тегам с классом title */
+.title {
+  font-weight: 500;
+}
+
+/* Применится ко всем тегам с классом text */
+.text {
+  color: brown;
+  font-size: 18px;
+  line-height: 2.5;
+}
+
+/* Применится ко всем тегам с классом link */
+/* .link {
+  text-decoration: none;
+}
+.link:hover {
+  color: tomato;
+} */
+/* ========================================== */
+/* Общие стили для всех типов оповещений */
+.alert {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Специфические стили для каждого типа */
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
+/* =========================================== */
+#title {
+  font-weight: 500;
+  color: orange;
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 3px 3px 20px #ff0000, 5px 5px 5px #000000;
+}
+/* =========================================== */
+/* ✅ Применится только к ссылкам, которые лежат внутри тега с классом social-links */
+/* .social-links a {
+  color: blue;
+  text-decoration: none;
+} */
+/* ============================================= */
+/* ❌ Не решает задачу */
+.menu > li {
+  border: 1px solid tomato;
+}
+/* ================================================= */
+a[href="https://htmlreference.io"]
+{
+  color: teal;
+}
+
+a[href="https://cssreference.io"]
+{
+  color: orange;
+}
+
+a[href="https://www.youtube.com"]
+{
+  color: tomato;
+}
+/* =================================================== */
+.social-links .link:visited {
+  color: rgb(192, 15, 189);
+}
+
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+  text-decoration: none;
+}
+
+.social-links .link:active {
+  color: red;
+}
+/* ======================================================== */
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: rgb(25, 116, 6);
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+/* ========================================================== */
+.text {
+  background-color: tomato;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* ========================================================== */
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+}
+.post-text {
+  text-indent: 100px;
+}
